@@ -10,7 +10,7 @@ app.use('/books', booksRoute)
 // app.get('/', (req, res) => {
 //     res.send("Hello World!")
 // })
-mongoose.connect("mongodb+srv://admin:admin1@testuser.lfkxw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority" , 
+mongoose.connect("mongodb+srv://admin:<password>@testuser.lfkxw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority" , 
 (err) =>{
 if(err){ console.log(err.message)};
 console.log("connected with database ...");
